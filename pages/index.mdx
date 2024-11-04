@@ -1,0 +1,18 @@
+import { Atom, Palette, Scroll } from 'lucide-react'
+import { Callout } from 'nextra/components'
+
+export const metaKey = typeof window !== 'undefined' && window.navigator.userAgent.includes('Macintosh') ? '⌘' : 'Ctrl'
+
+# Welcome 👋
+
+This is the index route.
+
+See the [advanced guide](https://nextra.site/docs/guide/advanced) for more than what's demonstrated here.
+
+## Search
+
+<Callout type="info">
+  In order for the table of contents to appear in the right sidebar, you need at least one additional heading.
+</Callout>
+
+Nextra sets up [FlexSearch](https://github.com/nextapps-de/flexsearch) for you. Press <kbd>{metaKey}</kbd> + <kbd>K</kbd> to try it out!

@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "name": "nextra-template",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "biome ci .",
+    "test": "bun test",
+    "clean": "rm -rf .next out"
+  },
+  "dependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@happy-dom/global-registrator": "15.8.2",
+    "@radix-ui/react-slot": "1.1.0",
+    "@testing-library/react": "16.0.1",
+    "@testing-library/user-event": "14.5.2",
+    "@types/bun": "1.1.13",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.20",
+    "class-variance-authority": "0.7.0",
+    "clsx": "2.1.1",
+    "lucide-react": "0.454.0",
+    "next": "15.0.2",
+    "nextra": "3.2.0",
+    "nextra-theme-docs": "3.2.0",
+    "postcss": "8.4.47",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "2.5.4",
+    "tailwindcss": "3.4.14",
+    "tailwindcss-animate": "1.0.7",
+    "typescript": "5.6.3"
+  }
+}
