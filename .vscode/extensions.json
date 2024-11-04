@@ -1,4 +1,9 @@
 {
-  "recommendations": ["biomejs.biome", "bradlc.vscode-tailwindcss", "unifiedjs.vscode-mdx"],
+  "recommendations": [
+    "bierner.github-markdown-preview",
+    "biomejs.biome",
+    "bradlc.vscode-tailwindcss",
+    "unifiedjs.vscode-mdx"
+  ],
   "unwantedRecommendations": []
 }

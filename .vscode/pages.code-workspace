@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "../pages",
+      "name": "pages 📝"
+    }
+  ],
+  "settings": {
+    "git.openRepositoryInParentFolders": "always",
+    "git.repositoryScanMaxDepth": 1,
+    "zenMode.showTabs": "none"
+  }
+}
